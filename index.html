@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ecommerce website</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+
+    <!-- favicon link -->
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <a href="./index.html" class="logo">elderhut<span></span><img id="elderly-logo" src="img\icon.jpg" alt="" ></a>
+
+      <!-- <form action="">
+        <input type="search" id="search-bar" />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form> -->
+
+      <div class="navigate">
+        <!-- nav links -->
+        <ul class="nav-links" id="nav-links">
+          <!-- single link  -->
+          <!-- single link  -->
+          <!-- end of single link  -->
+
+          <!-- single link  -->
+          <li>
+            <a href="#products" class="nav-link scroll-link scroll-link"
+              >products</a
+            >
+          </li>
+          <!-- end of single link  -->
+
+          <!-- single link  -->
+          <li>
+            <a href="#featured" class="nav-link scroll-link scroll-link"
+              >featured</a
+            >
+          </li>
+          <!-- end of single link  -->
+
+          <!-- single link  -->
+          <li>
+            <a href="#deal" class="nav-link scroll-link scroll-link">deals</a>
+          </li>
+          <!-- end of single link  -->
+          <li>
+            <a href="#review" class="nav-link scroll-link scroll-link"
+              >review</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="icons">
+        <div id="menu-bar" class="fas fa-bars nav-toggle" id="nav-toggle"></div>
+        <div id="theme-toggler" class="fas fa-moon"></div>
+        <!-- <a href="#" class="fas fa-heart"></a> -->
+        <div class="cart">
+          <a href="cart.html" class="fas fa-shopping-cart"></a>
+          <div class="cart-amount">0</div>
+        </div>
+        <!-- <a href="#" class="fas fa-user"></a> -->
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- navbar section  -->
+
+    <nav class="navbar">
+      <div class="links">
+        <a href="./index.html">home</a>
+        <a href="#products">products</a>
+        <a href="#featured">featured</a>
+        <a href="#deal">deals</a>
+        <a href="#review">review</a>
+      </div>
+
+      <div id="close" class="fas fa-times"></div>
+    </nav>
+
+    <!-- home section starts  -->
+
+    <div class="home slideshow-container" id="home">
+      <div class="mySlides fade">
+        <img class="image image1" src="./img/homeeimag.jpg" alt="" />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          class="image image2"
+          src="./img/homeeimg.jpg"
+          alt=""
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          class="image image3"
+          src="./img/homeeimgg.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div style="text-align: center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <!-- home section ends -->
+
+    <!-- category section starts  -->
+
+    <section class="category">
+      <h1 class="heading">shop by <span>category</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="content">
+            <a href="#featured" class="btn">shop now</a>
+          </div>
+          <img src="./images/wheelchair/wheelchair.jpg" alt="" />
+        </div>
+
+        <div class="box box2">
+          <img
+            src="./images/frame-folding-walker/frame-holding-walker (1).jpg "
+            alt=""
+          />
+          <div class="content">
+            <a href="#featured" class="btn">shop now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- category section ends -->
+
+    <!-- products section starts  -->
+
+    <section class="products" id="products">
+      <h1 class="heading">latest <span>products</span></h1>
+
+      <div id="latestProducts" class="latest-products-container">
+        <div id="" class="swiper-container product-slider gap">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slide">
+                <div class="icons">
+                  <!-- <a href="#" class="fas fa-heart"></a>   -->
+                  <!-- <a href="#" class="fas fa-search"></a>
+                  <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                  <img
+                    src="./images/frame-folding-walker/frame-holding-walker (4).jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>( 250 reviews )</span>
+                  </div>
+                  <h3>Frame Folding Walker</h3>
+                  <div class="price">₹349 <span>₹500</span></div>
+                  <a href="#" class="cart-btn btn">add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide">
+                <div class="icons">
+                  <!-- <a href="#" class="fas fa-heart"></a> -->
+                  <!-- <a href="#" class="fas fa-search"></a>
+                  <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                  <img src="images/bp-monitor/bp-monitor (7).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>( 250 reviews )</span>
+                  </div>
+                  <h3>BP Monitor</h3>
+                  <div class="price">₹1099 <span>₹1500</span></div>
+                  <a href="#" class="cart-btn btn">add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide">
+                <div class="icons">
+                  <!-- <a href="#" class="fas fa-heart"></a> -->
+                  <!-- <a href="#" class="fas fa-search"></a>
+                  <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                  <img src="images/hearing-aids/hearing-aids (6).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>( 250 reviews )</span>
+                  </div>
+                  <h3>Hearing aid</h3>
+                  <div class="price">₹449 <span>₹555</span></div>
+                  <a href="#" class="cart-btn btn">add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide">
+                <div class="icons">
+                  <!-- <a href="#" class="fas fa-heart"></a> -->
+                  <!-- <a href="#" class="fas fa-search"></a>
+                  <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                  <img src="images/seat-cushion/seat-cushion (1).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>( 250 reviews )</span>
+                  </div>
+                  <h3>Seat cushion</h3>
+                  <div class="price">₹299 <span>₹333</span></div>
+                  <a href="#" class="cart-btn btn">add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide">
+                <div class="icons">
+                  <!-- <a href="#" class="fas fa-heart"></a> -->
+                  <!-- <a href="#" class="fas fa-search"></a>
+                  <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                  <img
+                    src="images/walking-stick/walking-stick (1).jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>( 250 reviews )</span>
+                  </div>
+                  <h3>Walking Stick</h3>
+                  <div class="price">₹599 <span>₹678</span></div>
+                  <a href="#" class="cart-btn btn">add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-container product-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slide">
+                <div class="icons">
+                  <!-- <a href="#" class="fas fa-heart"></a> -->
+                  <!-- <a href="#" class="fas fa-search"></a>
+                  <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                  <img src="images/wheelchair/wheelchair (11).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>( 250 reviews )</span>
+                  </div>
+                  <h3>Brand New wheelchair</h3>
+                  <div class="price">₹14999 <span>₹20000</span></div>
+                  <a href="#" class="cart-btn btn">add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide">
+                <div class="icons">
+                  <!-- <a href="#" class="fas fa-heart"></a> -->
+                  <!-- <a href="#" class="fas fa-search"></a>
+                  <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                  <img
+                    src="images/frame-folding-walker/frame-holding-walker (6).jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>( 250 reviews )</span>
+                  </div>
+                  <h3>Frame folding walker</h3>
+                  <div class="price">₹699<span>₹799</span></div>
+                  <a href="#" class="cart-btn btn">add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide">
+                <div class="icons">
+                  <!-- <a href="#" class="fas fa-heart"></a> -->
+                  <!-- <a href="#" class="fas fa-search"></a>
+                  <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                  <img
+                    src="images/heart-rate-monitor/heart-monitor (2).jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>( 250 reviews )</span>
+                  </div>
+                  <h3>heart rate monitor</h3>
+                  <div class="price">₹1499 <span>₹2100</span></div>
+                  <a href="#" class="cart-btn btn">add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide">
+                <div class="icons">
+                  <!-- <a href="#" class="fas fa-heart"></a> -->
+                  <!-- <a href="#" class="fas fa-search"></a>
+                  <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                  <img src="images/seat-cushion/seat-cushion (7).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>( 250 reviews )</span>
+                  </div>
+                  <h3>seat cushion</h3>
+                  <div class="price">₹499 <span>₹599</span></div>
+                  <a href="#" class="cart-btn btn">add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide">
+                <div class="icons">
+                  <!-- <a href="#" class="fas fa-heart"></a> -->
+                  <!-- <a href="#" class="fas fa-search"></a>
+                  <a href="#" class="fas fa-eye"></a> -->
+                </div>
+                <div class="image">
+                  <img src="images/hearing-aids/hearing-aids (12).jpg" alt="" />
+                </div>
+                <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>( 250 reviews )</span>
+                  </div>
+                  <h3>hearing aids</h3>
+                  <div class="price">₹699 <span>₹799</span></div>
+                  <a href="#" class="cart-btn btn">add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- featured section starts  -->
+
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>featured</span> products</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image-container">
+            <div class="small-image">
+              <img
+                src="images/wheelchair/wheelchair (10).jpg"
+                class="small-image-1"
+                alt=""
+              />
+              <img
+                src="images/wheelchair/wheelchair (6).jpg"
+                class="small-image-1"
+                alt=""
+              />
+              <img
+                src="images/wheelchair/wheelchair (9).jpg"
+                class="small-image-1"
+                alt=""
+              />
+            </div>
+            <div class="big-image">
+              <img
+                src="images/wheelchair/wheelchair (6).jpg"
+                class="big-image-1"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="content">
+            <h3>wheelchair</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>( 250 reviews )</span>
+            </div>
+            <div class="price">₹17999 <span>₹25000</span></div>
+            <a href="#" class="cart-btn btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image-container">
+            <div class="small-image">
+              <img
+                src="images/frame-folding-walker/frame-holding-walker (3).jpg"
+                class="small-image-2"
+                alt=""
+              />
+              <img
+                src="images/frame-folding-walker/frame-holding-walker (6).jpg"
+                class="small-image-2"
+                alt=""
+              />
+              <img
+                src="images/frame-folding-walker/frame-holding-walker (8).jpg"
+                class="small-image-2"
+                alt=""
+              />
+            </div>
+            <div class="big-image">
+              <img
+                src="images/frame-folding-walker/frame-holding-walker (3).jpg"
+                class="big-image-2"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="content">
+            <h3>frame folding walker</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>( 250 reviews )</span>
+            </div>
+            <div class="price">₹699 <span>₹1100</span></div>
+            <a href="#" class="cart-btn btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image-container">
+            <div class="small-image">
+              <img
+                src="images/walking-stick/walking-stick (8).jpg"
+                class="small-image-3"
+                alt=""
+              />
+              <img
+                src="images/walking-stick/walking-stick (7).jpg"
+                class="small-image-3"
+                alt=""
+              />
+              <img
+                src="images/walking-stick/walking-stick (10).jpg"
+                class="small-image-3"
+                alt=""
+              />
+            </div>
+            <div class="big-image">
+              <img
+                src="images/walking-stick/walking-stick (7).jpg"
+                class="big-image-3"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="content">
+            <h3>walking stick</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>( 250 reviews )</span>
+            </div>
+            <div class="price">₹599 <span>₹1100</span></div>
+            <a href="#" class="cart-btn btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- featured section ends -->
+
+    <!-- deal section starts  -->
+
+    <section class="deal" id="deal">
+      <h1 class="heading">special <span>deal</span></h1>
+
+      <div class="row">
+        <div class="content">
+          <span class="discount">upto 50% off</span>
+          <h3 class="text">deal of the day</h3>
+          <div class="count-down">
+            <div class="box">
+              <h3 id="days">00</h3>
+              <span>days</span>
+            </div>
+            <div class="box">
+              <h3 id="hours">00</h3>
+              <span>hours</span>
+            </div>
+            <div class="box">
+              <h3 id="minutes">00</h3>
+              <span>minutes</span>
+            </div>
+            <div class="box">
+              <h3 id="seconds">00</h3>
+              <span>seconds</span>
+            </div>
+          </div>
+          <a href="#featured" class="btn">shop now</a>
+        </div>
+
+        <div class="image">
+          <img src="images/wheelchair/wheelchair (11).jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- deal section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customers <span>review</span></h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                I have purchased the EZ Fold N Go walker by Stander for my wife
+                who is 82 years old. Before she started using the EZ Fold N Go
+                walker, she was using an unknown brand. I am so happy with the
+                product.
+              </p>
+              <div class="user">
+                <img src="images/old.jpg" alt="" />
+                <div class="user-info">
+                  <h3>john deo</h3>
+                  <span>happy customer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                I have purchased the EZ Fold N Go walker by Stander for my wife
+                who is 82 years old. Before she started using the EZ Fold N Go
+                walker, she was using an unknown brand. I am so happy with the
+                product.
+              </p>
+              <div class="user">
+                <img src="images/old.jpg" alt="" />
+                <div class="user-info">
+                  <h3>john deo</h3>
+                  <span>happy customer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                I have purchased the EZ Fold N Go walker by Stander for my wife
+                who is 82 years old. Before she started using the EZ Fold N Go
+                walker, she was using an unknown brand. I am so happy with the
+                product.
+              </p>
+              <div class="user">
+                <img src="images/old.jpg" alt="" />
+                <div class="user-info">
+                  <h3>john deo</h3>
+                  <span>happy customer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                I have purchased the EZ Fold N Go walker by Stander for my wife
+                who is 82 years old. Before she started using the EZ Fold N Go
+                walker, she was using an unknown brand. I am so happy with the
+                product.
+              </p>
+              <div class="user">
+                <img src="images/old.jpg" alt="" />
+                <div class="user-info">
+                  <h3>john deo</h3>
+                  <span>happy customer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- footer section starts  -->
+
+    <!-- footer -->
+    <footer class="section footer">
+      <!-- footer links  -->
+      <ul class="footer-links">
+        <!-- single link  -->
+        <li>
+          <a href="#products" class="footer-link scroll-link">products</a>
+        </li>
+        <!-- end of single link  -->
+
+        <!-- single link  -->
+        <li>
+          <a href="#featured" class="footer-link scroll-link">featured</a>
+        </li>
+        <!-- end of single link  -->
+
+        <!-- single link  -->
+        <li>
+          <a href="#deal" class="footer-link scroll-link">deals</a>
+        </li>
+        <!-- end of single link  -->
+
+        <!-- single link  -->
+        <li>
+          <a href="#review" class="footer-link scroll-link">review</a>
+        </li>
+        <!-- end of single link  -->
+      </ul>
+      <!-- end of footer links -->
+
+      <ul class="footer-icons">
+        <!-- a single icon  -->
+        <li>
+          <a
+            href="https://www.instagram.com/sammeerrrr_/"
+            target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <!-- end of single icon  -->
+
+        <!-- a single icon  -->
+        <li>
+          <a
+            href=""
+            target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <!-- end of single icon  -->
+
+        <!-- a single icon  -->
+        <li>
+          <a
+            href="https://www.linkedin.com/in/sameer-gupta-5554a424b/"
+            target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <!-- end of single icon  -->
+      </ul>
+      <p class="owner">Created by Sameer Gupta </p>
+      <p class="copyright">
+        copyright &copy; sameer gupta
+        <span id="date"></span> all rights reserved
+      </p>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
